@@ -20,7 +20,7 @@ function dec(){
      
     var sam = document.getElementById('msec').innerHTML = sam;
     
-    sam.innerHTML.style.color = 'red';   
+    sam.style.backgroundcolor = 'red';   
     
 
 }
