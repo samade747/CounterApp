@@ -16,9 +16,12 @@ function dec(){
     var sam = document.getElementById('msec').innerHTML;
 
     --sam;
-
+    
+     
     var sam = document.getElementById('msec').innerHTML = sam;
-
+    
+    sam.innerHTML.style.color = 'red';   
+    
 
 }
 
