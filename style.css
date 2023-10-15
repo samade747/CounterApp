@@ -1,0 +1,77 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Set background color to black */
+}
+
+header {
+    background-color: #ffdede;
+    color: #2e2727;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+/* Style the time elements as circles */
+h1#min, h1#sec, h1#msec {
+    width: 100px;
+    height: 100px;
+    background-color: #5dabf4;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #fff;
+    margin: 0 10px;
+}
+
+button {
+    background-color: #2484ce;
+    color: #fff;
+    border: none;
+    padding: 10px 23px;
+    font-size: 10px;
+    margin: 30px;
+    border-radius: 10px; 
+}
+
+button:disabled {
+    background-color: #1a58cb; 
+}
+
+
+
+
+.timer {
+    display: flex;
+    align-items: center;
+    
+    text-align: center;
+    color: #fff;
+}
+
+.timer h1 {
+    font-size: 48px; /* Adjust the font size as needed */
+    margin: 0;
+}
+
+.timer h1:not(:last-child) {
+    margin-bottom: 5px; /* Add some space between elements */
+}
+
+footer {
+    background-color: #ffdede;
+    color: #2e2727;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+
